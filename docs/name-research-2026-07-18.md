@@ -224,6 +224,11 @@ Additional crowding:
 - USPTO `PageMD`: no exact result.
 - Chrome Web Store search returns `.MD this page`, `Any Page to MD`, `Markdown Page Downloader`, and multiple other webpage-to-Markdown products in the same channel:
   https://chromewebstore.google.com/search/Page%20MD
+- Two live Chrome extensions use `page2md`/`Page2md` for the same function:
+  - `page2md`, converting the current page—including logged-in content—to clean Markdown; 12 observed users, updated April 13, 2026:
+    https://chromewebstore.google.com/detail/page2md/mpclceigljagmdffeehkikpnkjeillgi
+  - `Page2md`, extracting selected webpage content and saving it as Markdown; 29 observed users, updated July 23, 2025:
+    https://chromewebstore.google.com/detail/page2md/adkkomgnaclpemmhdchfhponikglepem
 - GitHub contains at least 12 `pagemd` repositories. One active project, `LubyRuffy/pagemd`, takes a URL, extracts the main content, and converts it to Markdown:
   https://github.com/LubyRuffy/pagemd
 - GitHub also contains multiple `page2md` projects, including a Chrome/Edge browser extension and recently active clean-Markdown extractors:
@@ -231,6 +236,8 @@ Additional crowding:
   https://github.com/michalschroeder/page2md
 - npm and PyPI both contain `page2md` packages/projects.
 - `pagemd.com` is registered but did not resolve during the check.
+- `PageMD` is also used by an active AI medical paging and answering service:
+  https://pagemd.ai/
 
 ### Assessment
 
@@ -259,6 +266,11 @@ Additional common-law use:
   https://github.com/codegram/markdownizer
 - PyPI has an exact `markdownizer` project.
 - USPTO searches found no exact `PageMarkdownizer` or `Markdownizer` wordmark, but that does not outweigh the direct marketplace use.
+- `PageMarkdown` is a second direct competitor converting webpages to Markdown across Chrome, Firefox, and Edge:
+  - Website: https://pagemarkdown.com/
+  - Chrome: https://chromewebstore.google.com/detail/lcfleojmfgkfkcfmagcakinahijacbok
+  - Firefox (`PageMarkdown — Markdown Web Clipper`): https://addons.mozilla.org/firefox/addon/pagemarkdown/
+  - Edge: https://microsoftedge.microsoft.com/addons/detail/golgpdnmjiomblakglbeaodokpclhmol
 
 ### Assessment
 
