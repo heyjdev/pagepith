@@ -30,6 +30,20 @@ function visibleTextLength(root) {
   return (root?.textContent ?? '').replace(/\s+/g, ' ').trim().length;
 }
 
+function isArtifactOnlyInteractivePage(document) {
+  const main = document.querySelector('main, [role="main"]');
+  if (!main) return false;
+
+  const hasInteractiveArtifact = Boolean(main.querySelector(
+    'canvas, iframe, [role="application"], [aria-label*="map" i], [class*="map" i], [id*="map" i]'
+  ));
+  if (!hasInteractiveArtifact) return false;
+
+  const cleanedMain = main.cloneNode(true);
+  removeClutter(cleanedMain);
+  return visibleTextLength(cleanedMain) < 80;
+}
+
 function cleanedFallback(document) {
   const clone = document.cloneNode(true);
   removeClutter(clone);
@@ -64,6 +78,9 @@ function markdownFromHtml(html, document, title) {
 
 export function extractFromDocument(document) {
   if (!document?.documentElement) throw new Error('The page document is unavailable.');
+  if (isArtifactOnlyInteractivePage(document)) {
+    throw new Error('No useful textual content was found on this page.');
+  }
 
   const sourceUrl = document.location?.href || '';
   const readabilityClone = document.cloneNode(true);

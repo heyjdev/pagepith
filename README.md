@@ -7,6 +7,7 @@ A local-only Chrome Manifest V3 extension prototype that turns the useful text o
 - Extracts the primary article with Mozilla Readability.
 - Falls back to a cleaned `main`/`article`/page body when Reader Mode output is too sparse.
 - Removes navigation, ads, cookie/consent UI, forms, scripts, styles, images, embeds, social/recommendation clutter, and common tracking artifacts.
+- Rejects map shells and other artifact-only interactive pages instead of exporting unrelated newsletter or promotional boilerplate.
 - Preserves headings, paragraphs, lists, blockquotes, fenced code, GFM tables, and links through Turndown + its GFM plugin.
 - Includes the page title and source URL in every result.
 - Provides an editable preview, one-click copy, and `.md` export.

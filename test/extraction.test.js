@@ -41,6 +41,22 @@ test('uses cleaned relevant-body fallback when Readability output is sparse', as
   assert.doesNotMatch(result.markdown, /Home Docs Account|cookies|pixel\.gif|Legal Privacy/i);
 });
 
+test('rejects interactive map shells instead of extracting surrounding promotional boilerplate', async () => {
+  const document = await fixture('interactive-map.html', 'https://example.com/map/');
+  assert.throws(() => extractFromDocument(document), /No useful textual content/i);
+});
+
+for (const [name, markup] of [
+  ['image gallery', '<main><picture><img src="hero.jpg" alt="Gallery image"></picture><img src="second.jpg"></main>'],
+  ['video player', '<main><video controls src="movie.mp4"></video><button>Play video</button></main>'],
+  ['canvas dashboard', '<main role="main"><div role="application"><canvas></canvas><button>Zoom in</button></div></main>']
+]) {
+  test(`rejects an artifact-only ${name}`, () => {
+    const document = new JSDOM(`<html><head><title>Artifact</title></head><body>${markup}</body></html>`, { url: `https://example.com/${name.replace(' ', '-')}` }).window.document;
+    assert.throws(() => extractFromDocument(document), /No useful textual content/i);
+  });
+}
+
 test('returns a useful error for pages without extractable text', () => {
   const document = new JSDOM('<html><head><title>Empty</title></head><body><nav>Menu</nav><img src="x"></body></html>', { url: 'https://example.com/empty' }).window.document;
   assert.throws(() => extractFromDocument(document), /No useful textual content/i);
