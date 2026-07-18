@@ -23,6 +23,8 @@ Use **PagePith**.
 | **Page Marrow** | Low on exact matches | High | High | Strong runner-up; anatomical association is the drawback |
 | **Page Marked** | High | Low-medium | Medium | Do not choose |
 | **HTML MD** | High | Very low | High but purely descriptive | Do not choose |
+| **Page MD** | High | Very low | High but descriptive | Do not choose |
+| **Page Markdownizer** | High | Low | High | Do not choose |
 | **WebWinnow** | Moderate | Medium | High | Reject because WINNOW is crowded in software trademarks |
 | **PithMark** | Low-moderate | High | High | Reject in favor of PagePith due to close `Pitchmark` usage |
 | **PagePlain** | Low-moderate | Low-medium | High | Reject; descriptive and the `.com` is registered/parked |
@@ -215,7 +217,56 @@ Additional crowding:
 
 ---
 
-## 6. Other alternatives screened
+## 6. Page MD
+
+### Material findings
+
+- USPTO `PageMD`: no exact result.
+- Chrome Web Store search returns `.MD this page`, `Any Page to MD`, `Markdown Page Downloader`, and multiple other webpage-to-Markdown products in the same channel:
+  https://chromewebstore.google.com/search/Page%20MD
+- GitHub contains at least 12 `pagemd` repositories. One active project, `LubyRuffy/pagemd`, takes a URL, extracts the main content, and converts it to Markdown:
+  https://github.com/LubyRuffy/pagemd
+- GitHub also contains multiple `page2md` projects, including a Chrome/Edge browser extension and recently active clean-Markdown extractors:
+  https://github.com/lich-y/page2md
+  https://github.com/michalschroeder/page2md
+- npm and PyPI both contain `page2md` packages/projects.
+- `pagemd.com` is registered but did not resolve during the check.
+
+### Assessment
+
+**High practical risk; do not choose.** `Page MD`, `Page.MD`, `PageMD`, `Page to MD`, and `Page2MD` create nearly the same commercial impression for the same function. The phrase is descriptive, difficult to protect, and poor for search. `MD` also produces unrelated medical results.
+
+---
+
+## 7. Page Markdownizer
+
+### Decisive conflict
+
+A directly competing Chrome extension already uses **Markdownizer** as its primary product name:
+
+- **HTML to Markdown Converter — Markdownizer**
+- Chrome Web Store: https://chromewebstore.google.com/detail/html-to-markdown-converte/mmnhipdmonlffimgilnemjmkfmdllfga
+- Observed July 18, 2026: 15 users, five ratings, version 1.1.0, updated July 17, 2026.
+- Positioning: privacy-first webpage-to-Markdown conversion for LLM context, preserving headings, lists, tables, links, and code; clipboard copy and `.md` download.
+
+Additional common-law use:
+
+- `Thambolo/Markdownizer-extension`, apparently associated with the Store listing:
+  https://github.com/Thambolo/Markdownizer-extension
+- `aliinreallife/markdownizer`, a website-content-to-Markdown tool:
+  https://github.com/aliinreallife/markdownizer
+- `codegram/markdownizer`, an older project with 30 observed GitHub stars:
+  https://github.com/codegram/markdownizer
+- PyPI has an exact `markdownizer` project.
+- USPTO searches found no exact `PageMarkdownizer` or `Markdownizer` wordmark, but that does not outweigh the direct marketplace use.
+
+### Assessment
+
+**High practical risk; do not choose.** Adding the descriptive word `Page` to an occupied `Markdownizer` name does not create useful distance when both products convert webpages to Markdown in the same extension store. The name is also long, clunky, and functionally descriptive.
+
+---
+
+## 8. Other alternatives screened
 
 ### WebWinnow
 
