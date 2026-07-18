@@ -19,9 +19,9 @@ Use **PagePith**.
 | Candidate | Practical risk | Distinctiveness | Product fit | Recommendation |
 |---|---:|---:|---:|---|
 | **PagePith** | Low | High | High | **Proceed** |
-| **Page Morrow** | Low on exact matches; broader MORROW field remains crowded | Medium-high | Low | Usable, but not the best name |
+| **Page Morrow** | Moderate | Medium | Low | Usable only with further clearance; not the best name |
 | **Page Marrow** | Low on exact matches | High | High | Strong runner-up; anatomical association is the drawback |
-| **Page Marked** | Moderate | Low-medium | Medium | Do not choose |
+| **Page Marked** | High | Low-medium | Medium | Do not choose |
 | **HTML MD** | High | Very low | High but purely descriptive | Do not choose |
 | **WebWinnow** | Moderate | Medium | High | Reject because WINNOW is crowded in software trademarks |
 | **PithMark** | Low-moderate | High | High | Reject in favor of PagePith due to close `Pitchmark` usage |
@@ -131,10 +131,12 @@ The residual risks are the normal limitations of an unregistered common-law sear
 - Apple App Store: no exact app.
 - No positive `.com` RDAP record was observed during the check.
 - Exact-phrase general searches largely corrected the query to the personal name `Paige Morrow`, not a software product.
+- Broader searching found active, unrelated MORROW-branded software and services, including Morrow financial software (`usemorrow.com`), Morrow Health, and several mobile apps. These are not direct conflicts, but they make the root crowded and harder to search.
+- The exact normalized USPTO query produced no `PageMorrow` result. A complete similarity review of the much broader MORROW field and relevant Classes 9/42 was not completed record by record.
 
 ### Assessment
 
-**Likely usable, but weak product fit.** It sounds like a publisher, fictional character, or future-oriented service. Nothing about it says extraction, cleaning, pages-to-Markdown, or local privacy. Search engines also tend to treat it as the human name `Paige Morrow`.
+**Moderate preliminary risk and weak product fit.** No same-category `Page Morrow` product was found, but the MORROW field is crowded and the federal similarity screen is not complete enough to call it clean. It sounds like a publisher, fictional character, or future-oriented service. Nothing about it says extraction, cleaning, pages-to-Markdown, or local privacy. Search engines also tend to treat it as the human name `Paige Morrow`.
 
 ---
 
@@ -164,12 +166,21 @@ The residual risks are the normal limitations of an unregistered common-law sear
   https://github.com/chs97/PageMarked
 - Chrome Web Store search returns `PageMark Navigator` and numerous page-marking/highlighting extensions.  
   https://chromewebstore.google.com/search/Page%20Marked
+- Active Chrome `Pagemark` extension (44 observed users) remembers positions on webpages:
+  https://chromewebstore.google.com/detail/pagemark/afaojibkkpenpnhihegkmbgjbanhklnk
+- Active Firefox `PageMark` handles webpage highlights and notes:
+  https://addons.mozilla.org/en-US/firefox/addon/pagemarks/
+- Active Firefox `Page Marker` products include webpage drawing/marking and text-or-Markdown export:
+  https://addons.mozilla.org/en-US/firefox/addon/draw-and-mark-a-webpage/
+  https://addons.mozilla.org/en-US/firefox/addon/page-marker-extension/
+- npm has a `pagemark` package for saving webpage scroll position:
+  https://www.npmjs.com/package/pagemark
 - `pagemarked.com` is registered.
 - General web results are dominated by generic page markers, bookmarks, and stationery.
 
 ### Assessment
 
-**Do not choose.** The field is crowded, the wording is ordinary, and consumers may assume bookmarking or annotation rather than Markdown extraction. It would be difficult to search for and difficult to protect.
+**High practical risk; do not choose.** The field is crowded with nearly identical names in the same browser-extension channel, including a Page Marker product with Markdown export. The wording is ordinary, and consumers may assume bookmarking or annotation rather than clean-content extraction. It would be difficult to search for and difficult to protect.
 
 ---
 
@@ -183,6 +194,10 @@ An exact near-identical Chrome extension already exists:
 - Chrome Web Store: https://chromewebstore.google.com/detail/htmlmd/dbdnbdajoeadlkjghcfbinciabccjifa
 - Description: converts any webpage to Markdown, strips scripts/styles, preserves essential text and structure, copies output, and targets AI assistants.
 - Observed Store metrics: 36 users and two ratings.
+- Firefox also has an `HTML.MD` extension with the same conversion and AI-agent positioning:
+  https://addons.mozilla.org/en-US/firefox/addon/html-md/
+- Chrome has a second close competitor, `HTML to MD`, marketed as converting webpages to clean Markdown for AI agents:
+  https://chromewebstore.google.com/detail/html-to-md/pmchdpdpbilgjhfpabpheglhnkmpnk
 
 This is essentially the proposed product under the proposed name.
 
@@ -190,7 +205,8 @@ Additional crowding:
 
 - `HTML to MD`, `HTML to Markdown Converter`, `Save HTML as Markdown`, and other direct competitors appear in the same Chrome Web Store search.
 - GitHub contains multiple `htmlmd` and `html-md` converter repositories.
-- npm includes `html-md-converter` and related packages.
+- npm and PyPI contain `html2md` converter packages, while GitHub has hundreds of `html2md` repositories.
+- `html.md` is an active domain used for a web-code playground, adding namespace ambiguity.
 - USPTO `HTMLMD`: no exact result, but that does not cure direct marketplace use or make the descriptive phrase ownable.
 
 ### Assessment
