@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="280" viewBox="0 0 440 280" role="img" aria-labelledby="title desc">
+  <title id="title">PageSift promotional tile</title>
+  <desc id="desc">PageSift logo and the tagline Clean pages. Plain Markdown.</desc>
+  <rect width="440" height="280" fill="#0B1220"/>
+  <circle cx="390" cy="34" r="98" fill="#2DD4BF" opacity="0.08"/>
+  <circle cx="22" cy="270" r="76" fill="#2DD4BF" opacity="0.06"/>
+
+  <g transform="translate(34 65)">
+    <rect width="132" height="132" rx="26" fill="#111C31" stroke="#24324A" stroke-width="2"/>
+    <g transform="translate(2 2)">
+      <g fill="#F8FAFC">
+        <rect x="26" y="25" width="76" height="8" rx="4"/>
+        <rect x="34" y="41" width="60" height="8" rx="4"/>
+        <rect x="42" y="57" width="44" height="8" rx="4"/>
+      </g>
+      <path d="M25 73h78L75 96v12H53V96L25 73Z" fill="#2DD4BF"/>
+      <rect x="45" y="114" width="38" height="6" rx="3" fill="#F8FAFC"/>
+    </g>
+  </g>
+
+  <g font-family="DejaVu Sans, sans-serif">
+    <text x="190" y="102" fill="#F8FAFC" font-size="38" font-weight="700">PageSift</text>
+    <text x="190" y="137" fill="#2DD4BF" font-size="18" font-weight="600">Clean pages.</text>
+    <text x="190" y="161" fill="#F8FAFC" font-size="18" font-weight="600">Plain Markdown.</text>
+    <text x="190" y="202" fill="#94A3B8" font-size="13">Local extraction. No tracking.</text>
+  </g>
+</svg>

@@ -1,9 +1,9 @@
 {
-  "name": "page-to-markdown",
+  "name": "pagesift",
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Local-first Chrome MV3 extension that extracts useful page content as Markdown.",
+  "description": "Local-first Chrome extension that sifts useful page content into clean Markdown.",
   "scripts": {
     "clean": "node scripts/clean.js",
     "build": "node scripts/build.js",

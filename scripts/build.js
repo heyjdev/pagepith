@@ -21,4 +21,5 @@ await build({
 for (const file of ['manifest.json', 'popup.html', 'popup.css', 'popup.js']) {
   await cp(path.join(root, 'src', file), path.join(dist, file));
 }
+await cp(path.join(root, 'src', 'icons'), path.join(dist, 'icons'), { recursive: true });
 console.log(`Built unpacked extension: ${dist}`);

@@ -1,6 +1,6 @@
-# Page to Markdown
+# PageSift
 
-A local-only Chrome Manifest V3 extension prototype that turns the useful text on the active web page into clean Markdown for agents, LLMs, notes, or archives.
+PageSift is a local-only Chrome Manifest V3 extension that turns the useful text on the active web page into clean Markdown for agents, LLMs, notes, or archives.
 
 ## Features
 

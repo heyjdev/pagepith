@@ -3,12 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Page to Markdown</title>
+  <title>PageSift</title>
   <link rel="stylesheet" href="popup.css">
 </head>
 <body>
   <header>
-    <div><h1>Page to Markdown</h1><p>Clean, local extraction for agents and LLMs.</p></div>
+    <div class="brand">
+      <img src="icons/icon32.png" width="32" height="32" alt="">
+      <div><h1>PageSift</h1><p>Clean pages. Plain Markdown.</p></div>
+    </div>
     <button id="refresh" class="icon-button" type="button" title="Extract again" aria-label="Extract again">↻</button>
   </header>
   <div id="status" role="status" aria-live="polite" class="status">Extracting current page…</div>
