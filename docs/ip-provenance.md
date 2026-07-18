@@ -1,31 +1,31 @@
 # Intellectual-property provenance
 
-This file records the origin and licensing status of PageSift's distributed code and brand assets. It is an engineering record, not a legal opinion.
+This file records the origin and licensing status of PagePith's distributed code and brand assets. It is an engineering record, not a legal opinion.
 
 ## Product name and tagline
 
-- Product name: `PageSift`
+- Product name: `PagePith`
 - Primary tagline: `Clean pages. Plain Markdown.`
-- Secondary line: `Keep the page. Lose the noise.`
+- Secondary line: `Keep the useful core.`
 
-Names, titles, slogans, and short phrases are generally trademark questions rather than copyright questions in the United States. A formal trademark clearance search has not yet been completed.
+Names, titles, slogans, and short phrases are generally trademark questions rather than copyright questions in the United States. A broad preliminary federal and common-law screen is recorded in `docs/name-research-2026-07-18.md`; it is not a formal legal clearance opinion.
 
 ## Logo and icon
 
-The master artwork is `assets/brand/pagesift-icon.svg`.
+The master artwork is `assets/brand/pagepith-icon.svg`.
 
-- Created specifically for PageSift in this repository.
+- Created specifically for PagePith in this repository.
 - Composed only of original arrangements of basic geometric shapes and project colors.
 - Contains no stock artwork, third-party logos, Chrome branding, emoji, icon-font glyphs, or embedded fonts.
-- A generated raster concept was used during internal exploration but is not included or distributed. The final SVG was built separately as explicit vector geometry.
+- The final SVG was built directly as explicit vector geometry; no generated or stock imagery is distributed.
 - PNG files in `assets/brand/renders/` and `src/icons/` are mechanical renders of the master SVG.
 
 ## Store promotional image
 
-The master artwork is `assets/store/pagesift-promo-440x280.svg`.
+The master artwork is `assets/store/pagepith-promo-440x280.svg`.
 
-- Created specifically for PageSift.
-- Uses the PageSift vector mark, original layout, product name, and project copy.
+- Created specifically for PagePith.
+- Uses the PagePith vector mark, original layout, product name, and project copy.
 - Contains no photographs, stock assets, third-party logos, or embedded font files.
 - The PNG is a mechanical render of the SVG.
 

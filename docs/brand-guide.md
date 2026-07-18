@@ -1,14 +1,14 @@
-# PageSift brand guide
+# PagePith brand guide
 
 ## Name
 
-**PageSift**
+**PagePith**
 
-The name describes the product without sounding like a generic converter: it sifts useful content from a noisy page. Use `PageSift` as one word with a capital P and S.
+`Pith` means the essential substance or core. The name describes the product's job without collapsing into a generic converter label: it keeps the useful core of a webpage. Use `PagePith` as one word with capital P characters.
 
 ## Positioning
 
-PageSift strips a web page down to useful text and turns it into clean Markdown, locally.
+PagePith strips a web page down to useful text and turns it into clean Markdown, locally.
 
 ## Tagline
 
@@ -31,15 +31,15 @@ Convert the useful textual content of the active webpage into locally generated 
 
 ## Visual idea
 
-A stack of text lines passes through a simple funnel and emerges as one clean line. It should read first as "filter content," then as "clean text." The icon uses no letters, browser logos, robot imagery, or cloud symbols.
+A clean white page contains one bold teal core line, with quieter slate text above and below it. It should read first as "page," then as "keep the useful core." The icon uses no letters, browser logos, robot imagery, cloud symbols, or plant imagery.
 
 ## Color
 
 | Token | Value | Use |
 |---|---|---|
 | Ink | `#0B1220` | Main background and body copy |
-| Sift teal | `#2DD4BF` | Funnel and active accents |
-| Paper | `#F8FAFC` | Input text lines and light surfaces |
+| Core teal | `#2DD4BF` | Essential-content line and active accents |
+| Paper | `#F8FAFC` | Page shape and light surfaces |
 | Slate | `#94A3B8` | Secondary text and borders |
 | Error | `#EF4444` | Errors only |
 
@@ -53,9 +53,9 @@ Use the operating system's UI sans-serif stack for the extension. For marketing 
 
 - Keep a 12.5% safe margin.
 - Use a bold silhouette that survives at 16 px.
-- The three input lines may simplify to two at 16 px if needed.
+- Preserve the white page silhouette and teal core line at every size.
 - Never place the product name inside the icon.
-- Do not rotate the funnel or add decorative particles.
+- Do not add decorative particles, leaves, seeds, or anatomical imagery.
 
 ## Store imagery
 

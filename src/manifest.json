@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "PageSift",
+  "name": "PagePith",
   "version": "0.1.0",
   "description": "Turn the useful text on the current page into clean, locally generated Markdown.",
   "permissions": ["activeTab", "scripting"],
@@ -11,7 +11,7 @@
     "128": "icons/icon128.png"
   },
   "action": {
-    "default_title": "PageSift",
+    "default_title": "PagePith",
     "default_popup": "popup.html",
     "default_icon": {
       "16": "icons/icon16.png",

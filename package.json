@@ -1,9 +1,9 @@
 {
-  "name": "pagesift",
+  "name": "pagepith",
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Local-first Chrome extension that sifts useful page content into clean Markdown.",
+  "description": "Local-first Chrome extension that turns the useful core of a page into clean Markdown.",
   "scripts": {
     "clean": "node scripts/clean.js",
     "build": "node scripts/build.js",

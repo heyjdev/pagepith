@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">PagePith icon</title>
+  <desc id="desc">A clean white page with one bold teal core line.</desc>
+  <rect width="128" height="128" rx="24" fill="#0B1220"/>
+  <path d="M30 19h47l21 21v69H30V19Z" fill="#F8FAFC"/>
+  <path d="M77 19v21h21L77 19Z" fill="#94A3B8"/>
+  <rect x="42" y="43" width="44" height="7" rx="3.5" fill="#94A3B8"/>
+  <rect x="39" y="58" width="50" height="16" rx="8" fill="#2DD4BF"/>
+  <rect x="42" y="82" width="36" height="7" rx="3.5" fill="#94A3B8"/>
+</svg>

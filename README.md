@@ -1,6 +1,6 @@
-# PageSift
+# PagePith
 
-PageSift is a local-only Chrome Manifest V3 extension that turns the useful text on the active web page into clean Markdown for agents, LLMs, notes, or archives.
+PagePith is a local-only Chrome Manifest V3 extension that turns the useful text on the active web page into clean Markdown for agents, LLMs, notes, or archives.
 
 ## Features
 
