@@ -39,7 +39,15 @@ No exact `PAGESIFT` federal trademark record or exact Chrome Web Store listing w
 - **Version/status observed:** Version 1.5.0, updated 2026-06-15, one listed user
 - **Risk:** **Moderate to high.** Different word, but very similar sound, metaphor, product type, and function.
 
-### 4. PageSifter iOS application
+### 4. Current Chrome extension named Sift
+
+- **Name:** Sift
+- **URL:** https://chromewebstore.google.com/detail/sift/haamihpgoekfknbdeigbjjibkibajlgd
+- **Description:** Performs local semantic search over webpage text and identifies relevant passages
+- **Status observed:** Current Chrome Web Store listing, updated 2026-03-03
+- **Risk:** **Moderate.** The name is only the shared `Sift` component, but the channel and webpage-text filtering function overlap directly.
+
+### 5. PageSifter iOS application
 
 - **Name:** PageSifter
 - **URL:** https://apps.apple.com/us/app/pagesifter/id6761118497
@@ -47,7 +55,7 @@ No exact `PAGESIFT` federal trademark record or exact Chrome Web Store listing w
 - **Status observed:** Current App Store listing in 2026
 - **Risk:** **Moderate.** Close name and related content-filtering concept, although it is a news app rather than a browser extension.
 
-### 5. oncall-page-sift
+### 6. oncall-page-sift
 
 - **Name:** oncall-page-sift
 - **URL:** https://github.com/iwaheedsattar/oncall-page-sift
@@ -55,7 +63,7 @@ No exact `PAGESIFT` federal trademark record or exact Chrome Web Store listing w
 - **Created:** 2026-06-09
 - **Risk:** **Moderate.** Longer compound name, but the local “noisy pages to Markdown” function is unusually close.
 
-### 6. Older Facebook Page Sifter project
+### 7. Older Facebook Page Sifter project
 
 - **Name:** Facebook Page Sifter
 - **URL:** https://github.com/ankitbahl/facebook-page-sifter
