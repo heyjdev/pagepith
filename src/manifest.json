@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Page to Markdown",
+  "version": "0.1.0",
+  "description": "Extract the useful text from the current page as clean Markdown.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Page to Markdown",
+    "default_popup": "popup.html"
+  }
+}
