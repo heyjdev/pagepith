@@ -22,4 +22,6 @@ for (const file of ['manifest.json', 'popup.html', 'popup.css', 'popup.js']) {
   await cp(path.join(root, 'src', file), path.join(dist, file));
 }
 await cp(path.join(root, 'src', 'icons'), path.join(dist, 'icons'), { recursive: true });
+await cp(path.join(root, 'LICENSE'), path.join(dist, 'LICENSE'));
+await cp(path.join(root, 'THIRD_PARTY_LICENSES.txt'), path.join(dist, 'THIRD_PARTY_LICENSES.txt'));
 console.log(`Built unpacked extension: ${dist}`);
