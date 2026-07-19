@@ -35,4 +35,4 @@ If a future version changes these practices, this policy and the Chrome Web Stor
 
 ## Contact
 
-A support contact will be added before public release.
+For support, bug reports, or privacy questions, open an issue at [github.com/heyjdev/pagepith/issues](https://github.com/heyjdev/pagepith/issues).
