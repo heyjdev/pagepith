@@ -52,6 +52,7 @@ Use the operating system's UI sans-serif stack for the extension. For marketing 
 ## Icon rules
 
 - Keep a 12.5% safe margin.
+- For the 128×128 Chrome Web Store icon, center 96×96 artwork inside 16 pixels of transparent padding on every side.
 - Use a bold silhouette that survives at 16 px.
 - Preserve the white page silhouette and teal core line at every size.
 - Never place the product name inside the icon.

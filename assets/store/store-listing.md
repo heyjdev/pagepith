@@ -37,6 +37,14 @@ Some content cannot be extracted, including Chrome internal pages, login-protect
 
 Productivity
 
+## Support URL
+
+https://github.com/heyjdev/pagepith/issues
+
+## Privacy policy URL
+
+https://github.com/heyjdev/pagepith/blob/main/PRIVACY.md
+
 ## Permission justifications
 
 ### activeTab

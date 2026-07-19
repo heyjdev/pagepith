@@ -1,6 +1,23 @@
-# PagePith
+<p align="center">
+  <img src="assets/brand/pagepith-icon.svg" width="128" height="128" alt="PagePith logo: a clean white page with a bold teal core line">
+</p>
+
+<h1 align="center">PagePith</h1>
+
+<p align="center"><strong>Clean pages. Plain Markdown.</strong></p>
+
+<p align="center">
+  <a href="https://github.com/heyjdev/pagepith/actions/workflows/ci.yml"><img src="https://github.com/heyjdev/pagepith/actions/workflows/ci.yml/badge.svg" alt="PagePith continuous integration status"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-2dd4bf" alt="MIT license"></a>
+</p>
 
 PagePith is a local-only Chrome Manifest V3 extension that turns the useful text on the active web page into clean Markdown for agents, LLMs, notes, or archives.
+
+## Demo
+
+![PagePith removes a noisy page's ads, navigation, subscription prompt, and cookie banner, previews the useful content as Markdown, then copies it to the clipboard.](assets/demo/pagepith-demo.gif)
+
+The demonstration uses a controlled local sample page and the real unpacked extension. Nothing private was recorded. [View the static demo frame](assets/demo/pagepith-demo-poster.png).
 
 ## Features
 
@@ -39,8 +56,9 @@ No host permissions, storage permission, downloads permission, or clipboard perm
 Requirements: Node.js 20+ and npm.
 
 ```bash
-cd /home/r3d/projects/page-to-markdown
-npm install
+git clone https://github.com/heyjdev/pagepith.git
+cd pagepith
+npm ci
 npm test
 npm run build
 ```
@@ -59,8 +77,8 @@ The automated tests use noisy HTML fixtures under `test/fixtures/` and verify se
 2. Open `chrome://extensions` (or `chromium://extensions`).
 3. Enable **Developer mode**.
 4. Click **Load unpacked**.
-5. Select the absolute directory `/home/r3d/projects/page-to-markdown/dist`.
-6. Open a regular `http://` or `https://` page and click **Page to Markdown** in the toolbar.
+5. Select the repository's `dist/` directory.
+6. Open a regular `http://` or `https://` page and click **PagePith** in the toolbar.
 
 The `dist/` directory is the complete unpacked extension artifact. Rebuild and click **Reload** on the extensions page after source changes.
 
